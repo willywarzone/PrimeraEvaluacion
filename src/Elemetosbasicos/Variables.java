@@ -9,6 +9,7 @@ public class Variables {
         // su valor puede ser notificado en cualquier momento
         a = 8;
         System.out.println("La variable a vale " + a);
+
         // Reglas para nombrar varibles
         //int 5c = 4; --> no compila
         // Puede contener cualquier letra o digito
@@ -32,6 +33,23 @@ public class Variables {
         double decimal = 3.14;
         double numero = 3;
         System.out.println(numero);
-        float otroDecimal = 8.43f; // si declaras una variable de tipo floot ponemos una
+        float otroDecimal = 8.43f; // si declaras una variable de tipo floot ponemos una f
+
+        //formas alternativas de declaras una variable (pag11)
+        String leguaje = "java";
+        String version = "8 o superior";
+        // esto tambien se puede hacer asi:
+        String leguaje1 = "java", version1 = "10 o superior";
+        int num1 = 5, num2 = 10; // declaro dos variables de tipo int en una misma linea
+        // tambien podria hacer
+        int num3; // aqui declara la variable sin asignar nada, coge el valor por defecto; en los numeros, 0
+        num3= 6;
+        num3 = num1; //  aqui guarda en num3 el valor 5
+        System.out.println(num3);
+
+        // Inferencia de tipos
+        var variable = "Hola";
+        var otravariable = 10;
+
     }
 }
