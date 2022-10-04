@@ -13,10 +13,15 @@ public class Ejercicio07 {
         System.out.print("Minutos: ");
         int M = sc.nextInt();
 
+        // calcuamos cuantas horas y minutos corresponden a los minutos introduccion
         int cociente = M / 60;
         int resto = M % 60;
 
-        System.out.println(" son " + cociente + " y " + resto + " minutos");
+
+        // y muestre por pantalla a cuentas horas y minutos corresponden
+        System.out.println(M + " equivalen a " + cociente + " y " + resto + " minutos");
+
+
 
     }
 }
